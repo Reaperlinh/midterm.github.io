@@ -1,0 +1,107 @@
+.btn {
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 9px 14px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #1d4ed8;
+}
+
+.btn-secondary {
+    background: white;
+    color: #1e3a5f;
+    border-color: #ccd4df;
+}
+
+.btn-secondary:hover,
+.btn-secondary.active {
+    background: #e8f2ff;
+    border-color: #3b82f6;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.stats-card {
+    padding: 18px;
+    margin-bottom: 18px;
+    border: 1px solid #e5eaf0;
+    border-radius: 8px;
+}
+
+.stats-grid .stats-card {
+    margin-bottom: 0;
+}
+
+.stats-card h3 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    color: #1e3a5f;
+}
+
+.top-student {
+    margin: 6px 0;
+}
+
+.top-student span {
+    color: #65748b;
+}
+
+.plain-table td.left,
+.plain-table th.left {
+    text-align: left;
+}
+
+.plain-table small {
+    display: block;
+    color: #65748b;
+    font-weight: 400;
+}
+
+.total-row td {
+    font-weight: 700;
+    background: #f8fafc;
+}
+
+.compare-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.compare-controls label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.compare-controls select {
+    min-width: 260px;
+    padding: 9px 10px;
+    border: 1px solid #ccd4df;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.compare-table td.better {
+    background: #dcfce7;
+    font-weight: 700;
+}
+
+.compare-table td.worse {
+    color: #65748b;
+}
